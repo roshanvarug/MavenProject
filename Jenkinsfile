@@ -15,5 +15,10 @@ pipeline {
         )
       }
     }
+    stage('Stage3') {
+      steps {
+        sh 'echo "Hello India"'
+      }
+    }
   }
 }
